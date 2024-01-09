@@ -90,3 +90,231 @@ a {
   border: 1px solid #1ebfc1;
   min-width: 108px;
 }
+
+/* INTRO */
+
+.intro {
+  padding-top: 42px;
+  padding-bottom: 79px;
+}
+
+.intro .body {
+  display: flex;
+}
+
+/* COL 1 */
+
+.intro .col1 {
+  padding-top: 93px;
+  width: 39%;
+}
+
+.intro .col1 .banner {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.intro .col1 .heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.intro .col1 .desc {
+  max-width: 374px;
+  margin-top: 46px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.intro .col1 .call {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.intro .call .intro-btn {
+  margin-right: 50px;
+}
+
+.intro .call .play {
+  width: 62px;
+  height: 62px;
+  box-shadow: 0px 22px 50px 0px #0000000d;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+}
+/* COL 2 */
+.intro .col2 {
+  position: relative;
+  padding-left: 71px;
+  width: 61%;
+}
+
+.intro .col2 .person {
+  display: block;
+  margin-left: auto;
+  height: 631px;
+  width: 576px;
+  object-fit: cover;
+}
+
+.intro .col2 .courses {
+  height: 75px;
+  position: absolute;
+  display: flex;
+  right: 459px;
+  top: 149px;
+  align-items: center;
+  min-width: 157px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+}
+
+.intro .courses .desc {
+  margin-left: 16px;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+  max-width: 55px;
+}
+
+.intro .schedules {
+  text-align: center;
+  width: 124px;
+  height: 132px;
+  position: absolute;
+  right: 517px;
+  top: 453px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.intro .schedules .desc {
+  margin-top: 16px;
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.intro .schedules .line {
+  margin-top: 16px;
+}
+
+.intro .schedules .line2 {
+  margin-top: 12px;
+}
+
+.intro .schedules .line3 {
+  margin-top: 10px;
+}
+
+.intro .active {
+  position: absolute;
+  bottom: 41px;
+  right: 45px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+  width: 207px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro .active .desc {
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.intro .active .ava {
+  display: flex;
+  margin-top: 8px;
+}
+
+.intro .ava .avatar {
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -7px;
+}
+
+/* FEATURES */
+
+.features {
+  padding-top: 130px;
+  padding-bottom: 65px;
+}
+
+.features-top {
+  width: 50%;
+}
+
+.features .features-top .mini-fea {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.features .features-top .heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+}
+
+.features .features-top .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.features .features-bottom {
+  margin-top: 80px;
+}
+
+.features .features-bottom .all-item {
+  display: flex;
+}
+
+.features .features-bottom .item {
+  width: 33.3%;
+}
+
+.features .item .head {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.features .item .desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.68;
+  max-width: 168px;
+}
+
+.features .features-bottom .des2 {
+  max-width: 223px;
+}
+.features .features-bottom .des3 {
+  max-width: 224px;
+}
