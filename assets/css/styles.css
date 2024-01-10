@@ -390,6 +390,9 @@ a {
   position: absolute;
   border-radius: 8px;
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   height: 195px;
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
   padding: 18px 25px 29px;
@@ -444,4 +447,32 @@ a {
   border-radius: 50%;
   background-color: #1ebfc1;
   margin-right: 8px;
+}
+
+/* STATS */
+.stats {
+  padding: 65px 0 65px;
+  margin-top: 256px;
+  text-align: center;
+}
+
+.stats .body {
+  display: flex;
+}
+
+.stats .sta {
+  width: 33.33%;
+}
+
+.stats .sta .heading {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.stats .sta .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
