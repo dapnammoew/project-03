@@ -476,3 +476,161 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
 }
+
+/* COMMENTS */
+
+.comment {
+  padding: 65px 0;
+  margin-top: 134px;
+}
+
+.comment .body {
+  display: flex;
+  gap: 72px;
+}
+
+/* RATE */
+
+.rate {
+  width: 36%;
+}
+
+.comment .rate .thumb {
+  margin-top: 37px;
+}
+
+.comment .rate .desc {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  max-width: 419px;
+  line-height: 1.5; /* 150% */
+}
+
+.comment .rate .name {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.comment .rate .name::before {
+  content: "";
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #070707;
+  position: absolute;
+  top: 50%;
+  left: -11px;
+}
+
+.comment .rate .students {
+  position: relative;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 11px;
+}
+
+.comment .rate .arrow {
+  display: flex;
+  gap: 30px;
+}
+
+.comment .arrow .controls {
+  border: 2px solid #ffffff;
+  margin-top: 52px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2ac9bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  position: relative;
+  /* height: 481px; */
+  width: 64%;
+}
+
+.comment .user .face3,
+.comment .user .face4,
+.comment .user .face5,
+.comment .user .face6,
+.comment .user .face2 {
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.comment .user .face1 {
+  position: absolute;
+  top: 107px;
+  width: 235px;
+  height: 235px;
+  object-fit: cover;
+  border-radius: 50%;
+  right: 171px;
+}
+
+.comment .user .face2 {
+  top: 0;
+  left: 144px;
+}
+
+.comment .user .face3 {
+  bottom: 145px;
+  left: 0;
+}
+
+.comment .user .face4 {
+  bottom: 0px;
+  left: 212px;
+}
+
+.comment .user .face5 {
+  right: 32px;
+  bottom: 29px;
+}
+
+.comment .user .face6 {
+  top: 19px;
+  right: 0;
+}
+
+/* ACTION */
+.action {
+  padding: 65px 0;
+  background-color: #def6f5;
+  margin-top: 130px;
+}
+
+.action .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action .creat .heading {
+  margin-top: 11px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.action .creat .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.action .action-btn {
+  border: none;
+}
